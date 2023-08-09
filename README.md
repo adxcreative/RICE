@@ -1,8 +1,5 @@
-
-![pairs](/_images/lpr4m_example.png "xxx")
-
 <p align="center">
-  <img width="460" height="300" src="./_images/lpr4m_example.png">
+  <img width="700" height="300" src="./_images/lpr4m_example.png">
 </p>
 
 LPR4M is a large-scale live commerce dataset, offering a significantly broader coverage of categories and diverse modalities such as video, image, and text. 
