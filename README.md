@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="700" height="300" src="./_images/lpr4m_example.png">
+  <img width="800" height="500" src="./_images/lpr4m_example.png">
 </p>
 
 LPR4M is a large-scale live commerce dataset, offering a significantly broader coverage of categories and diverse modalities such as video, image, and text. 
