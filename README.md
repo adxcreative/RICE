@@ -1,7 +1,12 @@
 
-
+LPR4M is a large-scale live commerce dataset, offering a significantly broader coverage of categories and diverse modalities such as video, image, and text. 
+Key Features
+- Large-Scale: LPR4M is the largest LPR dataset to date. It contains 4M exactly matched 〈clip, image〉 pairs of 4M live clips, and 332k shop images. Each image has 14.5 clips with different product variations, e.g., viewpoint, scale, and occlusion.
+- Expressivity: LPR4M draws data pairs from 34 commonly used live commerce categories rather than relying solely on clothing data. Additionally, LPR4M offers auxiliary clip ASR text and image title.
+- Diversity: LPR4M promotes clip diversity while preserving the real-world data distribution, with a focus on three components: product scale, visible duration, and the number of products in the clip.
+  
 ## Dataset
-### <video, image> pairs
+### <clip, image> pairs
 ![pairs](/_images/lpr4m_example.png "xxx")
 
 ### Statistic
