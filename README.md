@@ -11,7 +11,9 @@ Key Features
 
 ![statistic](/_images/statistic.png "xxx")
 
-## Download dataset
+## Download 
+To download the LPR4M data, please first download the 
+
 ### Download files
 ### Install ***img2dataset***
 ```bash
