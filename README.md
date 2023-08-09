@@ -5,9 +5,8 @@
 ![image](/_images/lpr4m_example.png "LPR4M <video, image> pairs")
 
 ## Statistic
-周数|周一|周二|周三|周四|周五|周六|周日|总结|
+type|video|frame|second|image|pair|周六|周日|总结|
 |---|---|---|---|---|---|---|---|---|
-|第一周|√|√|√|√|√|/|/|按时完成|
-|第二周|√|√|×|×|×|/|/|进行中|
-|第三周|||||||
-|第四周|||||||
+|training|√|√|√|√|√|/|/|按时完成|
+|detection|√|√|×|×|×|/|/|进行中|
+|test|||||||
