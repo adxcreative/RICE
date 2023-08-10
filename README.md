@@ -49,6 +49,11 @@ Thus, *live_id-start_timestamp-end_timestamp* represents a unique clip_id, which
 
 *0081* is the frame index in current clip_id, and *live_id-start_timestamp-end_timestamp-frame_index* represents a unique frame_id.
 
+```bash
+https://js-ad.a.yximgs.com/bs2/ad-material-video/fff8b484-2eeb-11ee-b7bb-77cb20e634dc.jpg
+```
+An example of shop image url, where *fff8b484-2eeb-11ee-b7bb-77cb20e634dc* is the image id.
+
 To download the LPR4M data, please first download the 
 We will email you the download link of the files.
 
