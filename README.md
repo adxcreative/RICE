@@ -28,7 +28,7 @@ We created a url for each clip frame and shop image for easy download.
 
 
 ## Download 
-We organize the url data of the dataset into four ***txt*** files. One url one row.
+We organize the url data of the dataset into four *txt* files. One url one row.
 - training_frame_url_full_473402226.txt: the 473,402,226 frame urls of the full training clips.
 - training_image_url_full_332438.txt: the 332,438 shop image urls of the training set.
 - test_frame_url_501656.txt: the 501,656 frame urls of the test clips.
@@ -39,10 +39,10 @@ __Url example__
 ```bash
 https://js-ad.a.yximgs.com/bs2/ad-material-video/7b601b02-2c63-11ee-bb6d-b8cef60c2fd0-1667916122888-1667916252390-0081.jpg
 ```
-An example of frame url, where ***https://js-ad.a.yximgs.com/bs2/ad-material-video/*** is the prefix, 
-***7b601b02-2c63-11ee-bb6d-b8cef60c2fd0*** is the livestreaming id (live_id), 
-***1667916122888-1667916252390*** indicates the start and end timestamp of the livestreaming. 
-Thus, ***live_id-start_timestamp-end_timestamp*** represents a unique clip_id, which means that the clip is cropped from live_id, and the cropping starts from **start_timestamp** and ends at *end_timestamp*.
+An example of frame url, where *https://js-ad.a.yximgs.com/bs2/ad-material-video/* is the prefix, 
+*7b601b02-2c63-11ee-bb6d-b8cef60c2fd0* is the livestreaming id (live_id), 
+*1667916122888-1667916252390* indicates the start and end timestamp of the livestreaming. 
+Thus, *live_id-start_timestamp-end_timestamp* represents a unique clip_id, which means that the clip is cropped from live_id, and the cropping starts from *start_timestamp* and ends at *end_timestamp*.
 
 
 
