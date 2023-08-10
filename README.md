@@ -40,3 +40,13 @@ pip install img2dataset
 to [img2dataset](https://github.com/rom1504/img2dataset) for more details.
 
 
+## Citation
+
+```bibtex
+@article{yang2023crossview,
+  title={Cross-view Semantic Alignment for Livestreaming Product Recognition},
+  author={Wenjie Yang and Yiyi Chen and Yan Li and Yanhua Cheng and Xudong Liu and Quan Chen and Han Li},
+  journal={arXiv preprint arXiv:2308.04912},
+  year={2023}
+}
+```
