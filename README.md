@@ -9,7 +9,10 @@ Key Features
 - Expressivity: LPR4M draws data pairs from 34 commonly used live commerce categories rather than relying solely on clothing data. Additionally, LPR4M offers auxiliary clip ASR text and image title.
 - Diversity: LPR4M promotes clip diversity while preserving the real-world data distribution, with a focus on three components: product scale, visible duration, and the number of products in the clip.
 
-![statistic](/_images/statistic.png "xxx")
+<p align="center">
+  <img src="./_images/statistics.png">
+</p>
+
 
 ## Download 
 To download the LPR4M data, please first download the 
