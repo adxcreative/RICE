@@ -30,6 +30,7 @@ We created a url for each clip frame and shop image for easy download.
 
 ## Download 
 To download the LPR4M data, please first download the 
+We will email you the download link of the files.
 
 __Download files__
 
