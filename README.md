@@ -10,7 +10,7 @@ Key Features
 - Diversity: LPR4M promotes clip diversity while preserving the real-world data distribution, with a focus on three components: product scale, visible duration, and the number of products in the clip.
 
 <p align="center">
-  <img src="./_images/statistics.png">
+  <img width="600" height="200" src="./_images/statistics.png">
 </p>
 
 
