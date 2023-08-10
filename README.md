@@ -1,4 +1,4 @@
-![image](https://github.com/adxcreative/RICE/assets/50560933/5bc9987e-d979-4a22-ad96-3a2e481db0cd)![image](https://github.com/adxcreative/RICE/assets/50560933/64a49a52-e0be-4fe6-9bd8-b99cb0c0a8b7)Livestreaming Product Recognition (LPR) is to recognize products a salesperson presents in a live commerce clip (or video) through content-based video-to-image retrieval.
+![image](https://github.com/adxcreative/RICE/assets/50560933/17b40bc3-c753-43ce-a68c-a921380997cd)![image](https://github.com/adxcreative/RICE/assets/50560933/c99af16f-5616-4e11-93a6-c678e6718ffc)![image](https://github.com/adxcreative/RICE/assets/50560933/80750515-46e8-4504-93ba-52d347ab56b6)![image](https://github.com/adxcreative/RICE/assets/50560933/5bc9987e-d979-4a22-ad96-3a2e481db0cd)![image](https://github.com/adxcreative/RICE/assets/50560933/64a49a52-e0be-4fe6-9bd8-b99cb0c0a8b7)Livestreaming Product Recognition (LPR) is to recognize products a salesperson presents in a live commerce clip (or video) through content-based video-to-image retrieval.
 A livestreaming consists of many clips introducing different products, and a shop with hundreds of images.
 This task is to retrieve the ground-truth images from the shop (gallery) for each clip (query).
 
@@ -13,12 +13,18 @@ Key Features
 - Expressivity: LPR4M draws data pairs from 34 commonly used live commerce categories rather than relying solely on clothing data. Additionally, LPR4M offers auxiliary clip ASR text and image title.
 - Diversity: LPR4M promotes clip diversity while preserving the real-world data distribution, with a focus on three components: product scale, visible duration, and the number of products in the clip.
 
+Statistics
+
 <p align="center">
   <img width="650" height="150" src="./_images/statistics.png">
 </p>
 
-A <clip, image> pair is the basic unit of the trainging set. 
-The full training set contains 4,013,617 clips and 332,438 images, which results in 4,013,617 pairs. Each image has 12 clips on average. We extract one frame every second for the training clips and obtain 473,402,226 frames. We created a url for each frame for easy download.
+- Full training set: A <clip, image> pair is the basic unit of the trainging set. 
+The full training set contains 4,013,617 clips and 332,438 images, which results in 4,013,617 pairs. Each image has 12 clips on average. We extract one frame every second for the training clips and obtain 473,402,226 frames.
+- Detection training set: The product detection in the clip can promote the LPR accuracy. Thus, we sampled a subset from the full training set as the training set for the product detector. We extract 10 frames at even intervals for each clip and obtain 1,120,410 frames with 1,115,629 annotated product boxes.
+- Test set: The query set contains 20,079 clips, the gallery set contains 66,358 shop images. We adopt rank-k accuracy as the retrieval performance metrics. In order to evaluation of the performances of product detector, we extract one frame every 3 seconds for each query clip and obtain 501,656 frames with 669,374 annotated product boxes.
+
+We created a url for each clip frame and shop image for easy download.
 
 
 
