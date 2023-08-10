@@ -47,7 +47,7 @@ An example of frame url, where *https://js-ad.a.yximgs.com/bs2/ad-material-video
 
 Thus, *live_id-start_timestamp-end_timestamp* represents a unique clip_id, which means that the clip is cropped from live_id, and the cropping starts from *start_timestamp* and ends at *end_timestamp*.
 
-
+*0081* is the frame index in current clip_id, and *live_id-start_timestamp-end_timestamp-frame_index* represents a unique frame_id.
 
 To download the LPR4M data, please first download the 
 We will email you the download link of the files.
