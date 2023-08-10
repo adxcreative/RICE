@@ -1,4 +1,4 @@
-__Livestreaming Product Recognition (LPR)__ is to recognize products a salesperson presents in a live commerce clip (or video) through content-based video-to-image retrieval.
+___Livestreaming Product Recognition (LPR)___ is to recognize products a salesperson presents in a live commerce clip (or video) through content-based video-to-image retrieval.
 A livestreaming consists of many clips introducing different products, and a shop with hundreds of images.
 This task is to retrieve the ground-truth images from the shop (gallery) for each clip (query).
 
@@ -8,12 +8,12 @@ This task is to retrieve the ground-truth images from the shop (gallery) for eac
 
 LPR4M is a large-scale live commerce dataset, offering a significantly broader coverage of categories and diverse modalities such as video, image, and text. 
 
-Key Features
+__Key Features__
 - Large-Scale: LPR4M is the largest LPR dataset to date. It contains 4M exactly matched〈clip, image〉pairs of 4M live clips, and 332k shop images. Each image has 12 clips with different product variations, e.g., viewpoint, scale, and occlusion.
 - Expressivity: LPR4M draws data pairs from 34 commonly used live commerce categories rather than relying solely on clothing data. Additionally, LPR4M offers auxiliary clip ASR text and image title.
 - Diversity: LPR4M promotes clip diversity while preserving the real-world data distribution, with a focus on three components: product scale, visible duration, and the number of products in the clip.
 
-Statistics
+__Statistics__
 
 <p align="center">
   <img width="740" height="150" src="./_images/statistics.png">
