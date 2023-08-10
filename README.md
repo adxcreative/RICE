@@ -42,7 +42,7 @@ https://js-ad.a.yximgs.com/bs2/ad-material-video/7b601b02-2c63-11ee-bb6d-b8cef60
 An example of frame url, where ***https://js-ad.a.yximgs.com/bs2/ad-material-video/*** is the prefix, 
 ***7b601b02-2c63-11ee-bb6d-b8cef60c2fd0*** is the livestreaming id (live_id), 
 ***1667916122888-1667916252390*** indicates the start and end timestamp of the livestreaming. 
-Thus, ***live_id-start_timestamp-end_timestamp*** represents a unique clip_id, which means that the clip is cropped from live_id, and the cropping starts from ***start_timestamp*** and ends at *end_timestamp*.
+Thus, ***live_id-start_timestamp-end_timestamp*** represents a unique clip_id, which means that the clip is cropped from live_id, and the cropping starts from **start_timestamp** and ends at *end_timestamp*.
 
 
 
