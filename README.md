@@ -16,7 +16,7 @@ Key Features
 Statistics
 
 <p align="center">
-  <img width="670" height="150" src="./_images/statistics.png">
+  <img width="720" height="150" src="./_images/statistics.png">
 </p>
 
 - Full training set: A <clip, image> pair is the basic unit of the trainging set. 
