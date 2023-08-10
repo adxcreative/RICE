@@ -27,8 +27,13 @@ The full training set contains 4,013,617 clips and 332,438 images, which results
 We created a url for each clip frame and shop image for easy download.
 
 
-
 ## Download 
+We organize the url data of the dataset into four ***txt*** files. One url one row.
+- training_frame_url_full_473402226.txt: the 473,402,226 frame urls of the full training clips.
+- training_image_url_full_332438.txt: the 332,438 shop image urls of the training set.
+- test_frame_url_501656.txt: the 501,656 frame urls of the test clips.
+- test_image_url_66358.txt: the 66,358 shop image urls of the test set.
+  
 To download the LPR4M data, please first download the 
 We will email you the download link of the files.
 
