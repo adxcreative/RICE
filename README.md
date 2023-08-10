@@ -1,4 +1,4 @@
-![image](https://github.com/adxcreative/RICE/assets/50560933/17b40bc3-c753-43ce-a68c-a921380997cd)![image](https://github.com/adxcreative/RICE/assets/50560933/c99af16f-5616-4e11-93a6-c678e6718ffc)![image](https://github.com/adxcreative/RICE/assets/50560933/80750515-46e8-4504-93ba-52d347ab56b6)![image](https://github.com/adxcreative/RICE/assets/50560933/5bc9987e-d979-4a22-ad96-3a2e481db0cd)![image](https://github.com/adxcreative/RICE/assets/50560933/64a49a52-e0be-4fe6-9bd8-b99cb0c0a8b7)Livestreaming Product Recognition (LPR) is to recognize products a salesperson presents in a live commerce clip (or video) through content-based video-to-image retrieval.
+Livestreaming Product Recognition (LPR) is to recognize products a salesperson presents in a live commerce clip (or video) through content-based video-to-image retrieval.
 A livestreaming consists of many clips introducing different products, and a shop with hundreds of images.
 This task is to retrieve the ground-truth images from the shop (gallery) for each clip (query).
 
