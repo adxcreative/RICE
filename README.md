@@ -1,6 +1,6 @@
 Livestreaming Product Recognition (LPR) is to recognize products a salesperson presents in a live commerce clip (or video) through content-based video-to-image retrieval.
 A livestreaming consists of many clips introducing different products, and a shop with hundreds of images.
-This task is to retrieve the ground-truth images from the shop (gallery) for each livestreaming clip (query)
+This task is to retrieve the ground-truth images from the shop (gallery) for each clip (query).
 
 <p align="center">
   <img width="800" height="500" src="./_images/lpr4m_example.png">
