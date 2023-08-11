@@ -91,6 +91,14 @@ img2dataset --url_list=demo.txt --output_folder=lpr4m_demo \
 
 :fire:For more details about the arguments, please refer to the [API](https://github.com/rom1504/img2dataset#api) of *img2dataset*.
 
+- Finally, the tool will then automatically download the urls, resize them, and store them with that format:
+  * output_folder
+    * 00000 (shard id)
+      * 000000000.jpg
+      * 000000000.json
+      * 000000001.jpg
+      * 000000001.json 
+  
 ## Citation
 
 ```bibtex
