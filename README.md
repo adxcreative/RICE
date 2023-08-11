@@ -66,6 +66,8 @@ pip install img2dataset
 to [img2dataset](https://github.com/rom1504/img2dataset) for more details.
 
 ### Download the full dataset
+After downloading the url files and installing *img2dataset*, you can proceed to download dataset.
+[demo.txt](https://js-ad.a.yximgs.com/bs2/ad-material-video/demo.txt)
 
 ## Citation
 
