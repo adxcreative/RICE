@@ -75,17 +75,21 @@ wget https://js-ad.a.yximgs.com/bs2/ad-material-video/demo.txt
 
 ```bash
 img2dataset --url_list=demo.txt --output_folder=lpr4m_demo \
-    --input_format txt --image_size 256 --resize_mode keep_ratio --resize_only_if_bigger True \
+    --input_format txt --output_format files --image_size 256 --resize_mode keep_ratio \
     --number_sample_per_shard 50000 --timeout 10 --retries 0 --incremental_mode "incremental" \
-    --processes_count 10 --thread_count=64 --distributor multiprocessing \
+    --processes_count 10 --thread_count=128 --distributor multiprocessing \
 ```
 *--resize_mode keep_ratio* will keep the ratio and make the smallest side of the picture image_size. keeping ratio is important, because we should ensure the annotation box still fits the downloaded frames.
 
 *--number_sample_per_shard* the number of sample that will be downloaded in one shard, when it is set to 50k, the shard number would be 1M/50k=20.
 
-- set the processes_count as the number of cores your machine has
-- increase thread_count as long as your bandwidth and cpu are below the limits
-- set output_format to webdataset if your dataset has more than 1M elements, it will be easier to manipulate few tars rather than million of files
+*processes_count* set the processes_count as the number of cores your machine has
+
+*thread_count* increase thread_count as long as your bandwidth and cpu are below the limits
+
+*output_format* decides how to save pictures. *files* saves as a set of subfolder containing pictures, while *webdataset* saves as tars containing pictures.
+
+:fire:For more details about the arguments, please refer to the [API](https://github.com/rom1504/img2dataset#api) of *img2dataset*.
 
 ## Citation
 
