@@ -67,11 +67,11 @@ to [img2dataset](https://github.com/rom1504/img2dataset) for more details.
 
 ### Download the full dataset
 After downloading the url files and installing *img2dataset*, you can proceed to download dataset. In order to facilitate the testing of *img2dataset*, we present [demo.txt](https://js-ad.a.yximgs.com/bs2/ad-material-video/demo.txt), which contains 1 million training frame urls.
-- Firstly, download the demo url file.
+- Firstly, download the demo url file:
 ```bash
 wget https://js-ad.a.yximgs.com/bs2/ad-material-video/demo.txt
 ```
-- 
+- Then, run the *img2dataset* tool:
 
 ```bash
 img2dataset --url_list=demo.txt --output_folder=lpr4m_demo \
@@ -83,11 +83,11 @@ img2dataset --url_list=demo.txt --output_folder=lpr4m_demo \
 
 *--number_sample_per_shard* the number of sample that will be downloaded in one shard, when it is set to 50k, the shard number would be 1M/50k=20.
 
-*processes_count* set the processes_count as the number of cores your machine has
+*--processes_count* set the processes_count as the number of cores your machine has
 
-*thread_count* increase thread_count as long as your bandwidth and cpu are below the limits
+*--thread_count* increase thread_count as long as your bandwidth and cpu are below the limits
 
-*output_format* decides how to save pictures. *files* saves as a set of subfolder containing pictures, while *webdataset* saves as tars containing pictures.
+*--output_format* decides how to save pictures. *files* saves as a set of subfolder containing pictures, while *webdataset* saves as tars containing pictures.
 
 :fire:For more details about the arguments, please refer to the [API](https://github.com/rom1504/img2dataset#api) of *img2dataset*.
 
