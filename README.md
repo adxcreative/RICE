@@ -77,8 +77,15 @@ wget https://js-ad.a.yximgs.com/bs2/ad-material-video/demo.txt
 img2dataset --url_list=demo.txt --output_folder=lpr4m_demo \
     --input_format txt --image_size 256 --resize_mode keep_ratio --resize_only_if_bigger True \
     --number_sample_per_shard 50000 --timeout 10 --retries 0 --incremental_mode "incremental" \
-    --processes_count 1 --thread_count=64 --distributor multiprocessing \
+    --processes_count 10 --thread_count=64 --distributor multiprocessing \
 ```
+*--resize_mode keep_ratio* will keep the ratio and make the smallest side of the picture image_size. keeping ratio is important, because we should ensure the annotation box still fits the downloaded frames.
+
+*--number_sample_per_shard* the number of sample that will be downloaded in one shard, when it is set to 50k, the shard number would be 1M/50k=20.
+
+- set the processes_count as the number of cores your machine has
+- increase thread_count as long as your bandwidth and cpu are below the limits
+- set output_format to webdataset if your dataset has more than 1M elements, it will be easier to manipulate few tars rather than million of files
 
 ## Citation
 
