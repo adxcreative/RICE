@@ -102,7 +102,20 @@ If the output_format is set to *files*, the images will be stored as:
       * 000000000.json
       * 000000001.jpg  (i.e., 00000-00001, shard_id-image_index)
       * 000000001.json 
-  
+```
+{
+  "url": "https://js-ad.a.yximgs.com/bs2/ad-material-video/7b601b02-2c63-11ee-bb6d-b8cef60c2fd0-1667916122888-1667916252390-0081.jpg"
+  "key": "0000000001"
+  "status": "success"
+  "error_message": "null"
+  "width": "256"
+  "height": "455"
+  "original_width": “540”
+  "original_height": “960”
+  "exif": “{}”
+  "sha256": "4172f55eb0d90a2bd2eb94092ecb9e45dcd448ecce47acb6fdd85fb11befbd4e"
+}
+```  
 ## Citation
 
 ```bibtex
