@@ -25,7 +25,7 @@ The full training set contains 4,013,617 clips and 332,438 images, which results
 - Test set: The query set contains 20,079 clips, the gallery set contains 66,358 shop images. We adopt rank-k accuracy as the retrieval performance metrics. In order to evaluation of the performances of product detector, we extract one frame every 3 seconds for each query clip and obtain 501,656 frames with 669,374 annotated product boxes.
 
 We created a url for each clip frame and shop image for easy download. 
-<ins>The human faces in the images are all masked.</ins>
+<ins>*The human faces in the images are all masked.*</ins>
 
 
 
