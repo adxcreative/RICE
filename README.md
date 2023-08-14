@@ -24,7 +24,7 @@ The full training set contains 4,013,617 clips and 332,438 images, which results
 - Detection training set: The product detection in the clip can promote the LPR accuracy. Thus, we sampled a subset from the full training set as the training set for the product detector. We extract 10 frames at even intervals for each clip and obtain 1,120,410 frames with 1,115,629 annotated product boxes.
 - Test set: The query set contains 20,079 clips, the gallery set contains 66,358 shop images. We adopt rank-k accuracy as the retrieval performance metrics. In order to evaluation of the performances of product detector, we extract one frame every 3 seconds for each query clip and obtain 501,656 frames with 669,374 annotated product boxes.
 
-We created a url for each clip frame and shop image for easy download.
+We created a url for each clip frame and shop image for easy download. The human faces in the images are all masked.
 
 
 ## Download 
