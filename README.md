@@ -102,7 +102,14 @@ If the output_format is set to *files*, the images will be stored as:
       * 000000000.json
       * 000000001.jpg  (i.e., 00000-00001, shard_id-image_index)
       * 000000001.json
-     
+```
+* output_folder
+    * 00000 (shard id)
+      * 000000000.jpg
+      * 000000000.json
+      * 000000001.jpg  (i.e., 00000-00001, shard_id-image_index)
+      * 000000001.json
+```
 The json file 000000001.json records some messages of the frame.
 ```
 {
