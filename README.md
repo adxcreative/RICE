@@ -58,7 +58,7 @@ An example of shop image url, where *fff8b484-2eeb-11ee-b7bb-77cb20e634dc* is th
 
 ### Download the url files
 To download the LPR4M data, please first xxx.
-We will email you the download link of the four url files.
+We will email you the download link of the four url files. These *txt* file links are valid for 7 days, please download the *txt* files in time before they expire.
 
 ### Install *img2dataset*
 ```bash
