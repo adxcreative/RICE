@@ -1,3 +1,4 @@
+## 1. LPR4M Introduction
 ___Livestreaming Product Recognition (LPR)___ is to recognize products a salesperson presents in a live commerce clip (or video) through content-based video-to-image retrieval.
 A livestreaming consists of many clips introducing different products, and a shop with hundreds of images.
 This task is to retrieve the ground-truth images from the shop (gallery) for each clip (query).
@@ -8,12 +9,12 @@ This task is to retrieve the ground-truth images from the shop (gallery) for eac
 
 LPR4M is a large-scale live commerce dataset, offering a significantly broader coverage of categories and diverse modalities such as video, image, and text. 
 
-__Key Features__
+#### 1.1 Key Features
 - Large-Scale: LPR4M is the largest LPR dataset to date. It contains 4M exactly matched〈clip, image〉pairs of 4M live clips, and 332k shop images. Each image has 12 clips with different product variations, e.g., viewpoint, scale, and occlusion.
 - Expressivity: LPR4M draws data pairs from 34 commonly used live commerce categories rather than relying solely on clothing data. Additionally, LPR4M offers auxiliary clip ASR text and image title.
 - Diversity: LPR4M promotes clip diversity while preserving the real-world data distribution, with a focus on three components: product scale, visible duration, and the number of products in the clip.
 
-__Statistics__
+#### 1.2 Statistics
 
 <p align="center">
   <img width="740" height="150" src="./_images/statistics.png">
@@ -29,14 +30,14 @@ We created a url for each clip frame and shop image for easy download.
 
 
 
-## Download 
+## 2. Download 
 We organize the url data of the dataset into four *txt* files. One url one row.
 - training_frame_url_full_473402226.txt: the 473,402,226 frame urls of the full training clips.
 - training_image_url_full_332438.txt: the 332,438 shop image urls of the training set.
 - test_frame_url_501656.txt: the 501,656 frame urls of the test clips.
 - test_image_url_66358.txt: the 66,358 shop image urls of the test set.
 
-#### Frame url example
+#### 2.1 Frame url example
 ```bash
 https://js-ad.a.yximgs.com/bs2/ad-material-video/7b601b02-2c63-11ee-bb6d-b8cef60c2fd0-1667916122888-1667916252390-0081.jpg
 ```
@@ -50,24 +51,24 @@ Thus, *live_id-start_timestamp-end_timestamp* represents a unique clip_id, which
 
 *0081* is the frame index in current clip_id, and *live_id-start_timestamp-end_timestamp-frame_index* represents a unique frame_id.
 
-#### Shop image url example
+#### 2.2 Shop image url example
 ```bash
 https://js-ad.a.yximgs.com/bs2/ad-material-video/fff8b484-2eeb-11ee-b7bb-77cb20e634dc.jpg
 ```
 An example of shop image url, where *fff8b484-2eeb-11ee-b7bb-77cb20e634dc* is the image id.
 
-### Download the url files
+### 2.3 Download the url files
 To download the LPR4M data, please first [sign the agreement](https://docs.google.com/forms/d/e/1FAIpQLSeVLnR_CVGmq-Db5zwUEcqopgb7a-uPUZnRfBzDSgkGrJ2G6g/viewform?usp=sharing).
 We will email you the download link of the four url files. These *txt* file links are valid for 7 days, please download the *txt* files in time before they expire.
 
-### Install *img2dataset*
+### 2.4 Install *img2dataset*
 ```bash
 pip install img2dataset
 ```
 ***img2dataset*** can easily turn large sets of image urls to an image dataset. :fire:<ins>*It can download, resize and package 100M urls in 20h on one machine.*</ins> :fire:For example, [LAION-5B](https://laion.ai/blog/laion-5b/) contains 5B urls of image/text pairs that can be downloaded by ***img2dataset*** in 7 days using 10 nodes. For better performance, it's highly recommended to set up a fast dns resolver, see [this section](https://github.com/rom1504/img2dataset#setting-up-a-high-performance-dns-resolver). You can refer
 to [img2dataset](https://github.com/rom1504/img2dataset) for more details.
 
-### Download the full dataset
+### 2.5 Download the full dataset
 After downloading the url files and installing *img2dataset*, you can proceed to download dataset. In order to facilitate the testing of *img2dataset*, we present [demo.txt](https://js-ad.a.yximgs.com/bs2/ad-material-video/demo.txt), which contains 1 million training frame urls.
 - Firstly, download the demo url file:
 ```bash
