@@ -57,7 +57,7 @@ https://js-ad.a.yximgs.com/bs2/ad-material-video/fff8b484-2eeb-11ee-b7bb-77cb20e
 An example of shop image url, where *fff8b484-2eeb-11ee-b7bb-77cb20e634dc* is the image id.
 
 ### Download the url files
-To download the LPR4M data, please first (sign the agreement)[https://docs.google.com/forms/d/e/1FAIpQLSeVLnR_CVGmq-Db5zwUEcqopgb7a-uPUZnRfBzDSgkGrJ2G6g/viewform?usp=sharing].
+To download the LPR4M data, please first [sign the agreement](https://docs.google.com/forms/d/e/1FAIpQLSeVLnR_CVGmq-Db5zwUEcqopgb7a-uPUZnRfBzDSgkGrJ2G6g/viewform?usp=sharing).
 We will email you the download link of the four url files. These *txt* file links are valid for 7 days, please download the *txt* files in time before they expire.
 
 ### Install *img2dataset*
