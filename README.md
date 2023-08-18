@@ -124,7 +124,9 @@ The json file 000000001.json records some messages of the frame.
 
 
 ## 3. Annotation Description
-
+All annotation labels of the dataset are as follows：
+- [training_videoinfo_full_4013617.txt]() :
+- [test_videoid_asr_20079.txt]()
 
 ## Citation
 
