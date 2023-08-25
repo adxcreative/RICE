@@ -41,9 +41,9 @@ We organize the url data of the dataset into four *txt* files. One url one row.
 ```bash
 https://js-ad.a.yximgs.com/bs2/ad-material-video/7b601b02-2c63-11ee-bb6d-b8cef60c2fd0-1667916122888-1667916252390-0081.jpg
 ```
-An example of frame url, where *https://js-ad.a.yximgs.com/bs2/ad-material-video/* is the prefix, 
+An example of frame url, where `https://js-ad.a.yximgs.com/bs2/ad-material-video/` is the prefix, 
 
-*7b601b02-2c63-11ee-bb6d-b8cef60c2fd0* is the livestreaming id (live_id), 
+`7b601b02-2c63-11ee-bb6d-b8cef60c2fd0` is the livestreaming id (live_id), 
 
 *1667916122888-1667916252390* indicates the start and end timestamp of the livestreaming. 
 
