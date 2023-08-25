@@ -45,11 +45,11 @@ An example of frame url, where `https://js-ad.a.yximgs.com/bs2/ad-material-video
 
 `7b601b02-2c63-11ee-bb6d-b8cef60c2fd0` is the livestreaming id (live_id), 
 
-*1667916122888-1667916252390* indicates the start and end timestamp of the livestreaming. 
+`1667916122888-1667916252390` indicates the start and end timestamp of the livestreaming. 
 
-Thus, *live_id-start_timestamp-end_timestamp* represents a unique clip_id, which means that the clip is cropped from live_id, and the cropping starts from *start_timestamp* and ends at *end_timestamp*.
+Thus, `live_id-start_timestamp-end_timestamp` represents a unique clip_id, which means that the clip is cropped from live_id, and the cropping starts from `start_timestamp` and ends at `end_timestamp`.
 
-*0081* is the frame index in current clip_id, and *live_id-start_timestamp-end_timestamp-frame_index* represents a unique frame_id.
+`0081` is the frame index in current clip_id, and `live_id-start_timestamp-end_timestamp-frame_index` represents a unique frame_id.
 
 #### 2.2 Shop image url example
 ```bash
@@ -82,15 +82,15 @@ img2dataset --url_list=demo.txt --output_folder=lpr4m_demo \
     --number_sample_per_shard 50000 --timeout 10 --retries 0 --incremental_mode "incremental" \
     --processes_count 10 --thread_count=128 --distributor multiprocessing \
 ```
-*--resize_mode keep_ratio* will keep the ratio and make the smallest side of the picture image_size. keeping ratio is important, because we should ensure the annotation box still fits the downloaded frames.
+`--resize_mode keep_ratio` will keep the ratio and make the smallest side of the picture image_size. keeping ratio is important, because we should ensure the annotation box still fits the downloaded frames.
 
-*--number_sample_per_shard* the number of sample that will be downloaded in one shard, when it is set to 50k, the shard number would be 1M/50k=20.
+`--number_sample_per_shard` the number of sample that will be downloaded in one shard, when it is set to 50k, the shard number would be 1M/50k=20.
 
-*--processes_count* set the processes_count as the number of cores your machine has
+`--processes_count` set the processes_count as the number of cores your machine has
 
-*--thread_count* increase thread_count as long as your bandwidth and cpu are below the limits
+`--thread_count` increase thread_count as long as your bandwidth and cpu are below the limits
 
-*--output_format* decides how to save pictures. *files* saves as a set of subfolder containing pictures, while *webdataset* saves as tars containing pictures.
+`--output_format` decides how to save pictures. *files* saves as a set of subfolder containing pictures, while *webdataset* saves as tars containing pictures.
 
 :fire:For more details about the arguments, please refer to the [API](https://github.com/rom1504/img2dataset#api) of *img2dataset*.
 
