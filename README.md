@@ -125,7 +125,7 @@ The json file 000000001.json records some messages of the frame.
 
 ## 3. Annotation Description
 All annotation labels of the dataset are as follows：
-- [training_videoinfo_full_4013617.txt](https://js-ad.a.yximgs.com/bs2/ad-material-video/training_videoinfo_full_part_00.txt) : One video one row. Each row consists of <ins>[1]video_id, [2]frame_id list of video_id, box list of frame_id, image_id, image_title, category id, category name, video asr, product scale type, product visible duration type, product number type</ins>, separated by \t. We split the full file into 10 subfiles, the url of the *i*-th file is https://js-ad.a.yximgs.com/bs2/ad-material-video/training_videoinfo_full_part_i.txt
+- [training_videoinfo_full_4013617.txt](https://js-ad.a.yximgs.com/bs2/ad-material-video/training_videoinfo_full_part_00.txt) : One video one row. Each row consists of <ins>[1] video_id, [2] frame_id list of video_id, [3] box list of frame_id, [4] image_id, [5] image_title, [6] category id, [7] category name, [8] video asr, [9] product scale type, [10] product visible duration type, [11] product number type</ins>, separated by \t. We split the full file into 10 subfiles, the url of the *i*-th file is https://js-ad.a.yximgs.com/bs2/ad-material-video/training_videoinfo_full_part_i.txt
 - [test_videoid_asr_20079.txt](https://js-ad.a.yximgs.com/bs2/ad-material-video/test_videoid_asr_20079.txt) : ASR of testset videos.  Each row consists of <ins>video_id, video_asr</ins>, separated by \t.
 - [test_image_title_6076.txt](https://js-ad.a.yximgs.com/bs2/ad-material-video/test_image_title_6076.txt) : Title of testset images. Each row consists of <ins>image_id, image_title</ins>, separated by \t.
 - [test_videoid_to_gtimage_20079.json](https://js-ad.a.yximgs.com/bs2/ad-material-video/test_videoid_to_gtimage_20079.json) : A dict, key is video_id, value is the ground-truth image list of the video_id.
@@ -135,10 +135,12 @@ All annotation labels of the dataset are as follows：
 ## Citation
 
 ```bibtex
-@article{yang2023crossview,
-  title={Cross-view Semantic Alignment for Livestreaming Product Recognition},
-  author={Wenjie Yang and Yiyi Chen and Yan Li and Yanhua Cheng and Xudong Liu and Quan Chen and Han Li},
-  journal={arXiv preprint arXiv:2308.04912},
-  year={2023}
+@InProceedings{Yang_2023_ICCV,
+    author    = {Yang, Wenjie and Chen, Yiyi and Li, Yan and Cheng, Yanhua and Liu, Xudong and Chen, Quan and Li, Han},
+    title     = {Cross-view Semantic Alignment for Livestreaming Product Recognition},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {13404-13413}
 }
 ```
