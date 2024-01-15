@@ -1,3 +1,5 @@
+The code of [Cross-view Semantic Alignment for Livestreaming Product Recognition](https://github.com/DeepAlchemist/crossview-semantic-alignment) is released!
+
 ## 1. LPR4M Introduction
 ___Livestreaming Product Recognition (LPR)___ is to recognize products a salesperson presents in a live commerce clip (or video) through content-based video-to-image retrieval.
 A livestreaming consists of many clips introducing different products, and a shop with hundreds of images.
